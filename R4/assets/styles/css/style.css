@@ -1,11 +1,9 @@
-/* toda la página */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* el "body" */
 body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     width: 100vh;
@@ -13,21 +11,6 @@ body{
     margin: auto;
     color: black;
     background-attachment: fixed;
-}
-
-
-/* contenedores de los selectores y botones */
-.wrapper {
-    display: flex;
-    color: black;
-}
-
-.wrapper > div {
-    font-size: 4vh;
-    margin: .1em;
-    padding: .3em;
-    border-radius: 3px;
-    flex: 1;
 }
 
 footer{
